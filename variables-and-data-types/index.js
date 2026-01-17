@@ -15,7 +15,7 @@ console.log(name[0]);
 // -1 will always be equivalent to the last letter
 console.log(name[name.length - 1]);
 
-// #endregion
+// #endregion Strings
 
 // #region Numbers
 
