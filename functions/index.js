@@ -1,7 +1,8 @@
-// DRY - Don't repeat yourself
-// console.log("Hello, James")
-// console.log("Hello, Josh")
-// console.log("Hello, Jaja")
+/**  DRY - Don't repeat yourself
+ console.log("Hello, James")
+ console.log("Hello, Josh")
+ console.log("Hello, Jaja")
+*/
 
 // #region function
 
@@ -15,11 +16,14 @@ greetUser("James", "morning");
 greetUser("Josh", "afternoon");
 greetUser("Jaja", "evening");
 
-// #endregion
+// #endregion function
 
-function main() {
-  return 10;
-  console.log("Hello world");
+// #region return
+
+function sum(num1, num2) {
+  return num1 + num2;
 }
 
-console.log(main());
+console.log(sum(10, 5));
+
+// #endregion return
