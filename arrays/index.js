@@ -11,7 +11,7 @@
 
 // #endregion
 
-// #region Arrays
+// #region Arrays and push method
 // TIP: To always print the last element of a string
 // Use:  [array.length -1]
 
@@ -29,4 +29,17 @@ console.log(array[3]);
 // Always print the last element of an array
 console.log(array[array.length - 1]);
 
+// Array push method- used to add new values to the end of an array
+array.push("Bread");
+
+console.log(array);
+
 // #endregion
+
+// #region Array filter method
+
+let arrays = ["Chicken", "Pork", "Beef", "Shrimp"];
+
+arrays.filter((element) => {
+  console.log(element);
+});
