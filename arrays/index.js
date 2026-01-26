@@ -38,8 +38,12 @@ console.log(array);
 
 // #region Array filter method
 
-let arrays = ["Chicken", "Pork", "Beef", "Shrimp"];
+let arrays = [20, 15, 10, 30];
 
-arrays.filter((element) => {
-  console.log(element);
+let filteredArray = arrays.filter((element) => {
+  return element <= 15;
 });
+
+console.log(filteredArray);
+
+// #endregion
