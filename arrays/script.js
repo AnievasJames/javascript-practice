@@ -41,3 +41,24 @@ console.log(filteredArray3);
 // #endregion
 
 // #region (answer key)
+
+//  "LONG METHOD"
+
+// let people = [18, 20, 16, 15, 21];
+
+// let adults = people.filter((element) => {
+//   console.log(element);
+//   if (element >= 18) {
+//     return true;
+//   }
+// });
+
+// console.log(adults);
+
+let people = [18, 20, 16, 15, 21];
+
+let adults = people.filter((element) => element >= 18);
+
+console.log(adults);
+
+// #endregion
