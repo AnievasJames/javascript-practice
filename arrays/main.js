@@ -1,13 +1,3 @@
-// #region looping through an array
-
-let people = [18, 20, 16, 15, 21];
-
-for (let i = 0; i < people.length; ++i) {
-  console.log(people[i]);
-}
-
-// #endregion
-
 // #region exercise instructions
 
 /** Night Club Exercise
@@ -34,5 +24,39 @@ for (let result = 0; result < customers.length; ++result) {
     console.log(customers[result]);
   }
 }
+
+// #endregion
+
+// #region exercise (answer key)
+
+let people = [18, 20, 16, 21];
+
+// Create a new empty array (called clients)
+let adults = [];
+
+for (let i = 0; i < people.length; ++i) {
+  // Check if age is 18+
+  if (people[i] >= 18) {
+    // TRUE - Add element to the new array
+    adults.push(people[i]);
+  }
+}
+
+// console.log adults array
+console.log(adults);
+
+// #endregion
+
+// #region .map method
+
+let array = [1, 2, 3, 4, 5];
+
+// Non-mutating method- It's not going -
+// to change the original array
+let newArray = array.map((element) => {
+  return "hello world";
+});
+
+console.log(newArray);
 
 // #endregion
